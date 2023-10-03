@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\kunal\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add hardhat-gas-reporter --dev
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\ProgramData\ComposerSetup\bin;C:\Users\kunal\.cargo\bin;C:\Users\kunal\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\kunal\AppData\Local\Programs\Python\Python310\;C:\Users\kunal\AppData\Local\Microsoft\WindowsApps;C:\Users\kunal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kunal\AppData\Roaming\npm;C:\xampp\php 7.2.5;C:\Users\kunal\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\kunal\OneDrive\Pictures\Hardhat Devlopment\node_modules\keccak\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "name": "hardhat-devlopment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+      "@nomicfoundation/hardhat-verify": "^1.1.1",
+      "hardhat": "^2.17.3"
+    },
+    "dependencies": {
+      "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
+      "chai": "^4.3.10",
+      "dotenv": "^16.3.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
